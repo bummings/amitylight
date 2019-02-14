@@ -7,11 +7,11 @@ body {
 
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   border: 2px solid red;
-  line-height: 0.6;
+  line-height: 0.8;
 }
 
 .header__text {
@@ -27,22 +27,21 @@ body {
 }
 
 .subtitle__text {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
   font-size: 1.3rem;
   margin: 0 5rem;
 }
 
 .lightbulb {
-  height: 60px;
-  width: 60px;
+  height: 75px;
+  width: 75px;
+  margin-left: 2rem;
 }
 
 .content {
-  background-image: url(./assets/pipes.png);
+  background-color: #dab;
 }
 
 .content__text {
   font-size: 1.3rem;
+  font-family: Lora;
 }
