@@ -38,10 +38,35 @@ body {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-color: #dab;
+  border: 3px solid yellow;
 }
 
 .content__text {
   font-size: 1.3rem;
   font-family: Lora;
+  letter-spacing: 0.6px;
+  border: 2px solid cyan;
+  width: 600px;
+  padding: 2rem;
+  line-height: 1.7;
+}
+
+.left {
+  justify-self: flex-start;
+}
+
+.right {
+  justify-self: flex-end;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
 }
