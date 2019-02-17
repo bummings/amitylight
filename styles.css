@@ -61,6 +61,7 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
+  padding: 100px;
 }
 
 .otherthing {
@@ -72,24 +73,28 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
+  padding: 100px;
 }
 
 .row__3 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
+  padding: 100px;
 }
 
 .row__4 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
+  padding: 100px;
 }
 
 .row__5 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
+  padding: 100px;
 }
 
 .text__1 {
