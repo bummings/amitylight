@@ -57,6 +57,26 @@ body {
   line-height: 1.7;
 }
 
+.row__1 {
+  border: 5px solid brown;
+}
+
+.row__2 {
+  border: 5px solid purple;
+}
+
+.row__3 {
+  border: 5px solid cyan;
+}
+
+.row__4 {
+  border: 5px solid blue;
+}
+
+.row__5 {
+  border: 5px solid black;
+}
+
 .left {
   justify-self: flex-start;
 }
