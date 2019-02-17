@@ -20,7 +20,9 @@ body {
 }
 
 .subtitle__box {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 5fr;
   justify-content: center;
   align-items: center;
   border: 2px solid greenyellow;
@@ -68,5 +70,5 @@ body {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 800;
 }
