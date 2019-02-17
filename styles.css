@@ -61,7 +61,8 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
-  padding: 100px;
+  padding: 0 100px;
+  border: 2px solid red;
 }
 
 .otherthing {
@@ -73,28 +74,28 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
-  padding: 100px;
+  padding: 0 100px;
 }
 
 .row__3 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
-  padding: 100px;
+  padding: 0 100px;
 }
 
 .row__4 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
-  padding: 100px;
+  padding: 0 100px;
 }
 
 .row__5 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
-  padding: 100px;
+  padding: 0 100px;
 }
 
 .text__1 {
