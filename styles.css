@@ -49,7 +49,7 @@ body {
 
 .content__text {
   background-color: #ded;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   font-family: Lora;
   letter-spacing: 0.6px;
   border: 4px solid #002;
@@ -66,16 +66,12 @@ body {
   border: 2px solid red;
 }
 
-.otherthing {
-  grid-column: 2;
-  border: 1px solid yellow;
-}
-
 .row__2 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
   padding: 0 100px;
+  border: 2px solid blue;
 }
 
 .row__3 {
@@ -83,6 +79,7 @@ body {
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
   padding: 0 100px;
+  border: 2px solid red;
 }
 
 .row__4 {
@@ -136,8 +133,15 @@ body {
 }
 
 .arrow {
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
+}
+
+.arrow__flipped {
+  height: 50%;
+  width: 50%;
+  transform: scaleX(-1);
+  filter: FlipH;
 }
 
 .arrow__box {
