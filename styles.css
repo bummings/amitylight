@@ -7,11 +7,20 @@ body {
 
 .header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
   line-height: 0.8;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  font-family: Lora;
+  font-size: 1.5rem;
 }
 
 .header__text {
@@ -25,7 +34,6 @@ body {
   grid-template-rows: 5fr;
   justify-content: center;
   align-items: center;
-  border: 2px solid greenyellow;
 }
 
 .subtitle__text {
@@ -63,7 +71,6 @@ body {
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
   padding: 0 100px;
-  border: 2px solid red;
 }
 
 .row__2 {
@@ -71,7 +78,6 @@ body {
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
   padding: 0 100px;
-  border: 2px solid blue;
 }
 
 .row__3 {
@@ -79,7 +85,6 @@ body {
   grid-template-columns: 50% 50%;
   grid-template-rows: 1;
   padding: 0 100px;
-  border: 2px solid red;
 }
 
 .row__4 {
