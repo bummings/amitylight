@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 10px;
+  font-family: Lora;
   background: #d1e5e1;
 }
 
@@ -31,7 +32,6 @@ body {
 }
 
 .nav {
-  font-family: Lora;
   font-size: 1.5rem;
   padding-bottom: 1.3rm;
 }
@@ -59,6 +59,23 @@ body {
   margin: 0 5rem;
 }
 
+.demos {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.demos__demo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid red;
+}
+
+.demos__demo--header {
+}
+
 .about {
   display: grid;
   grid-template-columns: 2fr;
@@ -75,7 +92,7 @@ body {
 .content__text {
   background-color: #ded;
   font-size: 1.15rem;
-  font-family: Lora;
+
   letter-spacing: 0.6px;
   border: 4px solid #002;
   width: 600px;
@@ -172,11 +189,12 @@ body {
   align-items: center;
 }
 
+/* audio */
 #audioplayer {
   width: 480px;
   height: 60px;
-  margin: 50px auto auto auto;
-  border: solid;
+  /* margin: 50px auto auto auto; */
+  border: 10px solid black;
 }
 
 #pButton {
