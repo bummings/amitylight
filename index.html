@@ -20,7 +20,7 @@
       <nav class="nav">
         <ul class="nav__links">
           <li class="nav__links--link">demos</li>
-          <li class="nav__links--link">RESUME</li>
+          <li class="nav__links--link">resume</li>
           <li class="nav__links--link">about</li>
           <li class="nav__links--link">contact</li>
         </ul>
@@ -122,6 +122,17 @@
           you prefer! I’d love to work with you.
         </p>
       </div>
+      <audio id="music" preload="true">
+        <source src="http://www.alexkatz.me/codepen/music/interlude.mp3" />
+        <source src="http://www.alexkatz.me/codepen/music/interlude.ogg" />
+      </audio>
+      <div id="audioplayer">
+        <button id="pButton" class="play"></button>
+        <div id="timeline">
+          <div id="playhead"></div>
+        </div>
+      </div>
     </div>
+    <script src="./components/player.js"></script>
   </body>
 </html>
