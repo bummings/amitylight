@@ -59,12 +59,17 @@ body {
   margin: 0 5rem;
 }
 
-.content {
+.about {
   display: grid;
   grid-template-columns: 2fr;
   grid-template-rows: 5fr;
   border: 10px solid black;
   background-color: #dab;
+}
+
+.demos {
+  background-color: #ded;
+  border: 10px solid black;
 }
 
 .content__text {

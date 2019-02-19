@@ -104,6 +104,21 @@
     </div>
 
     <div class="content">
+      <div class="demos">
+        <audio id="music" preload="true">
+          <source src="./assets/narration.mp3" />
+          <!-- <source src="http://www.alexkatz.me/codepen/music/interlude.ogg" /> -->
+        </audio>
+        <div id="audioplayer">
+          <button id="pButton" class="play"></button>
+          <div id="timeline">
+            <div id="playhead"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
       <div class="row__1">
         <p class="content__text">
           Here’s a little <span class="italic">PINCH</span>...about me: I’m just
@@ -198,17 +213,8 @@
           you prefer! I’d love to work with you.
         </p>
       </div>
-      <audio id="music" preload="true">
-        <source src="http://www.alexkatz.me/codepen/music/interlude.mp3" />
-        <source src="http://www.alexkatz.me/codepen/music/interlude.ogg" />
-      </audio>
-      <div id="audioplayer">
-        <button id="pButton" class="play"></button>
-        <div id="timeline">
-          <div id="playhead"></div>
-        </div>
-      </div>
     </div>
+
     <script src="./components/player.js"></script>
   </body>
 </html>
