@@ -1,12 +1,11 @@
-alert('works');
-var music = document.getElementById('music'); // id for audio element
-var duration = music.duration; // Duration of audio clip, calculated here for embedding purposes
-var pButton = document.getElementById('pButton'); // play button
-var playhead = document.getElementById('playhead'); // playhead
-var timeline = document.getElementById('timeline'); // timeline
+let music = document.getElementById('music'); // id for audio element
+let duration = music.duration; // Duration of audio clip, calculated here for embedding purposes
+let pButton = document.getElementById('pButton'); // play button
+let playhead = document.getElementById('playhead'); // playhead
+let timeline = document.getElementById('timeline'); // timeline
 
 // timeline width adjusted for playhead
-var timelineWidth = timeline.offsetWidth - playhead.offsetWidth;
+let timelineWidth = timeline.offsetWidth - playhead.offsetWidth;
 
 // play button event listenter
 pButton.addEventListener('click', play);
@@ -34,7 +33,7 @@ playhead.addEventListener('mousedown', mouseDown, false);
 window.addEventListener('mouseup', mouseUp, false);
 
 // Boolean value so that audio position is updated only when the playhead is released
-var onplayhead = false;
+let onplayhead = false;
 
 // mouseDown EventListener
 function mouseDown() {
@@ -58,7 +57,7 @@ function mouseUp(event) {
 // mousemove EventListener
 // Moves playhead as user drags
 function moveplayhead(event) {
-  var newMargLeft = event.clientX - getPosition(timeline);
+  let newMargLeft = event.clientX - getPosition(timeline);
 
   if (newMargLeft >= 0 && newMargLeft <= timelineWidth) {
     playhead.style.marginLeft = newMargLeft + 'px';
@@ -74,7 +73,7 @@ function moveplayhead(event) {
 // timeUpdate
 // Synchronizes playhead position with current point in audio
 function timeUpdate() {
-  var playPercent = timelineWidth * (music.currentTime / duration);
+  let playPercent = timelineWidth * (music.currentTime / duration);
   playhead.style.marginLeft = playPercent + 'px';
   if (music.currentTime == duration) {
     pButton.className = '';
