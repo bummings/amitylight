@@ -194,7 +194,18 @@ body {
 }
 
 .contact {
-  background-color: #564148;
+  background-color: #a79c8e;
+  color: #ffe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__icon {
+  height: 100px;
+  width: 100px;
+  filter: invert(100%) sepia(2%) saturate(3617%) hue-rotate(3deg)
+    brightness(98%) contrast(106%);
 }
 
 /* audio */
