@@ -209,18 +209,18 @@
             <img class="arrow__flipped" src="./assets/arrow.svg" alt="arrow" />
           </div>
           <p class="content__text text__4">
-            LET’S WRAP THIS UP! Prey tell, what about voice over you ask? Well,
-            in my search to figure what kind of actor I am I always had this
-            little peep in the back of my head that told me, “ You’d really
-            enjoy being a voice over actor for animation...just saying.” That
-            peep turned into a yell as soon as I took my first voice over class.
-            I stepped into that recording booth and that chubby cheeked cherub
-            hit me in my soft spot and then I knew it. I felt home, like I
-            belonged in that booth. Alas, this is the kind of actor I am! So I
-            worked hard to educate and immerse myself in the voice over world
-            and I must say I love it. Don’t get me wrong- I still enjoy
-            performing on stage and working on films but there’s just something
-            about voice over that just rocks my world.
+            <span class="bold">LET"S WRAP THIS UP!</span> Prey tell, what about
+            voice over you ask? Well, in my search to figure what kind of actor
+            I am I always had this little peep in the back of my head that told
+            me, “ You’d really enjoy being a voice over actor for
+            animation...just saying.” That peep turned into a yell as soon as I
+            took my first voice over class. I stepped into that recording booth
+            and that chubby cheeked cherub hit me in my soft spot and then I
+            knew it. I felt home, like I belonged in that booth. Alas, this is
+            the kind of actor I am! So I worked hard to educate and immerse
+            myself in the voice over world and I must say I love it. Don’t get
+            me wrong- I still enjoy performing on stage and working on films but
+            there’s just something about voice over that just rocks my world.
           </p>
         </div>
 
@@ -235,6 +235,29 @@
 
       <div class="contact">
         <div class="contact__email">
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name"/></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email"/></label>
+            </p>
+            <p>
+              <label
+                >Your Role:
+                <select name="role[]" multiple>
+                  <option value="leader">Leader</option>
+                  <option value="follower">Follower</option>
+                </select></label
+              >
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
           <img class="contact__icon" src="./assets/email.svg" alt="email" />
           <p class="contact__text">amitylightvo@gmail.com</p>
         </div>
