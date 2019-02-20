@@ -196,25 +196,36 @@ body {
 .contact {
   background-color: #a79c8e;
   color: #ffe;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
   padding: 3rem;
 }
 
-.contact__email {
+.contact__form {
+  grid-column: 1 / 1fr;
+  border: solid;
+}
+
+.contact__details {
+  grid-column: 2 / 1fr;
+  border: solid;
+}
+
+.contact__details--email {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
-.contact__phone {
+.contact__details--phone {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-.contact__icon {
+.contact__details--icon {
   height: 80px;
   width: 80px;
   filter: invert(100%) sepia(2%) saturate(3617%) hue-rotate(3deg)
@@ -222,7 +233,7 @@ body {
   margin-right: 1.5rem;
 }
 
-.contact__text {
+.contact__details--text {
   font-size: 1.75rem;
 }
 
