@@ -206,6 +206,27 @@ body {
   border: solid;
 }
 
+.contact__form--label {
+  font-size: 1.75rem;
+}
+
+.contact__form--input {
+  height: 1.85rem;
+  width: 25rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+
+.contact__form--textBox {
+  height: 9rem;
+  width: 25rem;
+}
+
+.contact__form--btn {
+  height: 3rem;
+  width: 8rem;
+}
+
 .contact__details {
   grid-column: 2 / 1fr;
   border: solid;
