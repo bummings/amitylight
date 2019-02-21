@@ -2,16 +2,7 @@
 document.addEventListener('DOMContentLoaded', theDOMHasLoaded, false);
 
 // array of audio files (stored in a folder called music)
-var files = [
-  'interlude.mp3', // 0
-  'chooseyourweapon.mp3', // 1
-  'interlude.mp3', // 2
-  'scriptures.mp3' // 3
-];
-
-///////////////////////////////////////////////
-// Find and store audio info
-///////////////////////////////////////////////
+var files = ['narration.mp3', 'commercial.mp3'];
 
 // array for AudioObjects
 var audioList = [];
@@ -252,7 +243,7 @@ function createAudioElements() {
     var audioString =
       '<audio id="audio-' +
       f +
-      '" class="audio" preload="true"><source src="http://www.alexkatz.me/codepen/music/' +
+      '" class="audio" preload="true"><source src="./assets/' +
       files[f] +
       '"></audio>';
     $('#audio-players').append(audioString);
