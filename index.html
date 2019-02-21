@@ -115,31 +115,7 @@
       <div class="demos">
         <div class="demos__demo">
           <h1 class="demos__demo--header">Narration</h1>
-          <audio id="music" preload="true">
-            <source src="./assets/narration.mp3" />
-            <!-- <source src="http://www.alexkatz.me/codepen/music/interlude.ogg" /> -->
-          </audio>
-          <div id="audioplayer">
-            <button id="pButton" class="play"></button>
-            <div id="timeline">
-              <div id="playhead"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="demos__demo">
-          <h1 class="demos__demo--header">Commercial</h1>
-          <audio id="music" preload="true">
-            <source src="./assets/commercial.mp3" />
-            <!-- <source src="http://www.alexkatz.me/codepen/music/interlude.ogg" /> -->
-          </audio>
-          <div id="audioplayer">
-            <button id="pButton" class="play"></button>
-            <div id="timeline">
-              <div id="playhead"></div>
-            </div>
-          </div>
-        </div>
+          <div id="audio-players"></div>
       </div>
 
       <div class="about">
@@ -290,6 +266,10 @@
         </div>
       </div>
     </div>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
     <script src="./components/player.js"></script>
   </body>
 </html>

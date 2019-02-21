@@ -308,20 +308,17 @@ a:hover:after {
 }
 
 /* audio */
-#audioplayer {
+.audioplayer {
   width: 480px;
   height: 60px;
-  /* margin: 50px auto auto auto; */
-  border: 10px solid black;
+  margin: 50px auto auto auto;
+  border: solid;
 }
 
-#pButton {
+.playbutton {
   height: 60px;
   width: 60px;
   border: none;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-  background-position: center;
   float: left;
   outline: none;
 }
@@ -329,11 +326,19 @@ a:hover:after {
 .play {
   background: url('http://www.alexkatz.me/codepen/img/play.png');
 }
+
 .pause {
   background: url('http://www.alexkatz.me/codepen/img/pause.png');
 }
 
-#timeline {
+.play,
+.pause {
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.timeline {
   width: 400px;
   height: 20px;
   margin-top: 20px;
@@ -341,10 +346,12 @@ a:hover:after {
   border-radius: 15px;
   background: rgba(0, 0, 0, 0.3);
 }
-#playhead {
+
+.playhead {
   width: 18px;
   height: 18px;
   border-radius: 50%;
   margin-top: 1px;
   background: rgba(0, 0, 0, 1);
+  cursor: pointer;
 }
