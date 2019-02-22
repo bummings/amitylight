@@ -6,6 +6,11 @@ body {
   background: #d1e5e1;
 }
 
+.scrollBox {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -46,6 +51,19 @@ a:hover:after {
   background: transparent;
   width: 100%;
   transition: 0s;
+}
+
+.exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid black;
+}
+
+.exp__hr {
+  background-color: yellow;
+  width: 50%;
+  height: 20px;
 }
 
 .header {

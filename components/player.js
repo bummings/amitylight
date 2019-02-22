@@ -2,7 +2,12 @@
 document.addEventListener('DOMContentLoaded', theDOMHasLoaded, false);
 
 // array of audio files (stored in a folder called music)
-var files = ['narration.mp3', 'commercial.mp3'];
+var files = [
+  'narration1.mp3',
+  'narration2.mp3',
+  'commercial1.mp3',
+  'commercial2.mp3'
+];
 
 // array for AudioObjects
 var audioList = [];
