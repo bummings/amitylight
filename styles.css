@@ -122,9 +122,6 @@ a:hover:after {
 .demos {
   display: flex;
   flex-direction: column;
-  /* display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%; */
   padding: 3rem;
 }
 
