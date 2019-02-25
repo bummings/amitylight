@@ -2,21 +2,28 @@
 document.addEventListener('DOMContentLoaded', theDOMHasLoaded, false);
 
 // array of audio files (stored in a folder called music)
-var files = [
+let files = [
   'narration1.mp3',
   'narration2.mp3',
   'commercial1.mp3',
   'commercial2.mp3'
 ];
 
+let names = [
+  'Narration Demo 1',
+  'Narration Demo 2',
+  'Commercial Demo 1',
+  'Commercial Demo 2'
+];
+
 // array for AudioObjects
-var audioList = [];
+let audioList = [];
 // components and the index for their AudioObject
-var componentDict = {};
+let componentDict = {};
 // store AudioObject that is currently playing
-var playingAudio = null;
+let playingAudio = null;
 // store playhead id if one is being dragged
-var onplayhead = null;
+let onplayhead = null;
 
 /* AudioObject Constructor */
 function AudioObject(audio, duration) {
@@ -69,7 +76,7 @@ AudioObject.prototype.addEventListeners = function() {
 
 /* populateAudioList */
 function populateAudioList() {
-  var audioElements = document.getElementsByClassName('audio');
+  let audioElements = document.getElementsByClassName('audio');
   for (i = 0; i < audioElements.length; i++) {
     audioList.push(new AudioObject(audioElements[i], 0));
     audioList[i].bindAudioPlayer(i);
@@ -95,7 +102,7 @@ function populateComponentDictionary() {
 /* durationChange
  * set duration for AudioObject */
 AudioObject.prototype.durationChange = function() {
-  var ao = audioList[getAudioListIndex(this.id)];
+  let ao = audioList[getAudioListIndex(this.id)];
   ao.duration = this.duration;
 };
 
@@ -103,7 +110,7 @@ AudioObject.prototype.durationChange = function() {
  * call play() for correct AudioObject
  */
 AudioObject.prototype.pressPlay = function() {
-  var index = getAudioListIndex(this.id);
+  let index = getAudioListIndex(this.id);
   audioList[index].play();
 };
 
@@ -132,7 +139,7 @@ AudioObject.prototype.play = function() {
  * get timeline's AudioObject
  */
 AudioObject.prototype.timelineClick = function(event) {
-  var ao = audioList[getAudioListIndex(this.id)];
+  let ao = audioList[getAudioListIndex(this.id)];
   ao.audio.currentTime =
     ao.audio.duration * clickPercent(event, ao.timeline, ao.timelineWidth);
 };
@@ -140,7 +147,7 @@ AudioObject.prototype.timelineClick = function(event) {
 /* mouseDown */
 AudioObject.prototype.mouseDown = function(event) {
   onplayhead = this.id;
-  var ao = audioList[getAudioListIndex(this.id)];
+  let ao = audioList[getAudioListIndex(this.id)];
   window.addEventListener(
     'mousemove',
     AudioObject.prototype.moveplayhead,
@@ -157,7 +164,7 @@ AudioObject.prototype.mouseDown = function(event) {
  * getting input from all mouse clicks */
 function mouseUp(e) {
   if (onplayhead != null) {
-    var ao = audioList[getAudioListIndex(onplayhead)];
+    let ao = audioList[getAudioListIndex(onplayhead)];
     window.removeEventListener(
       'mousemove',
       AudioObject.prototype.moveplayhead,
@@ -178,8 +185,8 @@ function mouseUp(e) {
 /* mousemove EventListener
  * Moves playhead as user drags */
 AudioObject.prototype.moveplayhead = function(e) {
-  var ao = audioList[getAudioListIndex(onplayhead)];
-  var newMargLeft = e.clientX - getPosition(ao.timeline);
+  let ao = audioList[getAudioListIndex(onplayhead)];
+  let newMargLeft = e.clientX - getPosition(ao.timeline);
 
   if (newMargLeft >= 0 && newMargLeft <= ao.timelineWidth) {
     document.getElementById(onplayhead).style.marginLeft = newMargLeft + 'px';
@@ -198,8 +205,8 @@ AudioObject.prototype.moveplayhead = function(e) {
  */
 AudioObject.prototype.timeUpdate = function() {
   // audio element's AudioObject
-  var ao = audioList[getAudioListIndex(this.id)];
-  var playPercent = ao.timelineWidth * (ao.audio.currentTime / ao.duration);
+  let ao = audioList[getAudioListIndex(this.id)];
+  let playPercent = ao.timelineWidth * (ao.audio.currentTime / ao.duration);
   ao.playhead.style.marginLeft = playPercent + 'px';
   // If song is over
   if (ao.audio.currentTime == ao.duration) {
@@ -245,7 +252,7 @@ function getPosition(el) {
  * create audio elements for each file in files */
 function createAudioElements() {
   for (f in files) {
-    var audioString =
+    let audioString =
       '<audio id="audio-' +
       f +
       '" class="audio" preload="true"><source src="./assets/' +
@@ -259,7 +266,7 @@ function createAudioElements() {
  * create audio players for each file in files */
 function createAudioPlayers() {
   for (f in files) {
-    var playerString =
+    let playerString =
       '<div id="audioplayer-' +
       f +
       '" class="audioplayer"><button id="playbutton-' +
