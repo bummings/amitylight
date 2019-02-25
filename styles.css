@@ -151,7 +151,7 @@ a:hover:after {
 }
 
 .content__text {
-  background-color: #ded;
+  background-color: #eed;
   font-size: 1.15rem;
 
   letter-spacing: 0.6px;
@@ -259,10 +259,10 @@ a:hover:after {
 }
 
 .contact__form {
-  grid-column: 1 / 1fr;
+  grid-column: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: solid;
+  padding: 1rem;
 }
 
 .contact__form--label {
@@ -271,11 +271,10 @@ a:hover:after {
 }
 
 .contact__form--input {
-  grid-row: 2;
+  grid-column: 2;
   height: 1.85rem;
   width: 25rem;
   border-radius: 0.5rem;
-  margin-left: 1rem;
 }
 
 .contact__form--textBox {
@@ -290,7 +289,6 @@ a:hover:after {
 
 .contact__details {
   grid-column: 2 / 1fr;
-  border: solid;
   display: grid;
 }
 
