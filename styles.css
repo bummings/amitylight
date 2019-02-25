@@ -368,3 +368,16 @@ a:hover:after {
   background: rgba(0, 0, 0, 1);
   cursor: pointer;
 }
+
+#audioplayer-0 {
+  border: 8px solid yellow;
+}
+#audioplayer-1 {
+  border: 8px solid greenyellow;
+}
+#audioplayer-2 {
+  border: 8px solid salmon;
+}
+#audioplayer-3 {
+  border: 8px solid orange;
+}
