@@ -356,7 +356,6 @@ a:hover:after {
 
 .contact__details {
   grid-column: 2 / 1fr;
-  display: grid;
 }
 
 .contact__details--email {
@@ -364,6 +363,7 @@ a:hover:after {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
+  grid-row: 1;
 }
 
 .contact__details--phone {
@@ -371,6 +371,7 @@ a:hover:after {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
+  grid-row: 1;
 }
 
 .contact__details--icon {
