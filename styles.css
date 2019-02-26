@@ -168,13 +168,16 @@ a:hover:after {
 
 .demos {
   background-color: #ded;
-  border: 10px solid black;
+  border: 10px solid green;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 4;
 }
 
 .demos__players {
   grid-column: 2;
   grid-row: 1;
-  border: 7px solid yellow;
+  /* border: 7px solid yellow; */
   /* display: flex;
   flex-direction: row;
   justify-content: space-around;
