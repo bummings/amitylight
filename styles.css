@@ -323,17 +323,17 @@ a:hover:after {
 }
 
 .contact__form {
-  /* grid-column: 1;
-  display: grid;
-  grid-template-columns: 1fr 1fr; */
   grid-column: 1;
   display: flex;
   padding: 1rem;
   justify-content: flex-end;
+  border: 5px solid yellow;
 }
 
 .contact__form--label {
-  font-size: 1.75rem;
+  font-size: 1.2rem;
+  font-family: Oswald;
+  text-transform: uppercase;
   grid-column: 1;
 }
 
@@ -355,7 +355,11 @@ a:hover:after {
 }
 
 .contact__details {
-  grid-column: 2 / 1fr;
+  border: 5px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3rem;
 }
 
 .contact__details--email {
@@ -363,7 +367,8 @@ a:hover:after {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
-  grid-row: 1;
+  border: 2px solid blue;
+  margin-bottom: 1rem;
 }
 
 .contact__details--phone {
@@ -371,7 +376,7 @@ a:hover:after {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
-  grid-row: 1;
+  border: 2px solid blue;
 }
 
 .contact__details--icon {
