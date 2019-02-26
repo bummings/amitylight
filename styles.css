@@ -122,12 +122,29 @@ a:hover:after {
 .demos {
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
   padding: 3rem;
 }
 
 .demos__titles {
   border: 2px solid brown;
   grid-column: 1;
+}
+
+.demo__titles--1 {
+  grid-row: 1;
+}
+
+.demo__titles--2 {
+  grid-row: 2;
+}
+
+.demo__titles--3 {
+  grid-row: 3;
+}
+
+.demo__titles--4 {
+  grid-row: 4;
 }
 
 .demos__demo {
@@ -138,9 +155,6 @@ a:hover:after {
   align-items: center;
   border: 3px solid red;
   margin-bottom: 1rem;
-}
-
-.demos__demo--header {
 }
 
 .about {
@@ -377,15 +391,20 @@ a:hover:after {
 
 #audioplayer-0 {
   border: 8px solid yellow;
+  grid-row: 1;
 }
+
 #audioplayer-1 {
   border: 8px solid greenyellow;
+  grid-row: 2;
 }
 #audioplayer-2 {
   border: 8px solid salmon;
+  grid-row: 3;
 }
 #audioplayer-3 {
   border: 8px solid orange;
+  grid-row: 4;
 }
 
 /* GRID WIT THESE MANE */
