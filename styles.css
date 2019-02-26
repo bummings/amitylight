@@ -120,12 +120,18 @@ a:hover:after {
 }
 
 .demos {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 50% 50%;
   padding: 3rem;
 }
 
+.demos__titles {
+  border: 2px solid brown;
+  grid-column: 1;
+}
+
 .demos__demo {
+  grid-column: 2;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -381,3 +387,14 @@ a:hover:after {
 #audioplayer-3 {
   border: 8px solid orange;
 }
+
+/* GRID WIT THESE MANE */
+/* GRID WIT THESE MANE */
+/* GRID WIT THESE MANE */
+/* GRID WIT THESE MANE */
+/* GRID WIT THESE MANE */
+/* GRID WIT THESE MANE */
+/* GRID WIT THESE MANE */
+/* GRID WIT THESE MANE */
+/* GRID WIT THESE MANE */
+/* GRID WIT THESE MANE */
