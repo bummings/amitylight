@@ -131,19 +131,27 @@ a:hover:after {
   grid-column: 1;
 }
 
-.demo__titles--1 {
+.demos__titles--title {
+  font-size: 2rem;
+}
+
+.demos__titles--1 {
+  grid-column: 1;
   grid-row: 1;
 }
 
-.demo__titles--2 {
+.demos__titles--2 {
+  grid-column: 1;
   grid-row: 2;
 }
 
-.demo__titles--3 {
+.demos__titles--3 {
+  grid-column: 1;
   grid-row: 3;
 }
 
-.demo__titles--4 {
+.demos__titles--4 {
+  grid-column: 1;
   grid-row: 4;
 }
 
