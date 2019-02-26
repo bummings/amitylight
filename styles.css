@@ -124,10 +124,10 @@ a:hover:after {
   grid-template-columns: 50% 50%;
   grid-template-rows: 25% 25% 25% 25%;
   padding: 3rem;
+  border: 10px solid blueviolet;
 }
 
 .demos__titles {
-  border: 2px solid brown;
   grid-column: 1;
 }
 
@@ -147,13 +147,39 @@ a:hover:after {
   grid-row: 4;
 }
 
-.demos__demo {
+#audioplayer-0 {
+  border: 8px solid yellow;
+  grid-row: 1;
   grid-column: 2;
-  display: flex;
+}
+
+#audioplayer-1 {
+  border: 8px solid greenyellow;
+  grid-row: 2;
+}
+#audioplayer-2 {
+  border: 8px solid salmon;
+  grid-row: 3;
+}
+#audioplayer-3 {
+  border: 8px solid orange;
+  grid-row: 4;
+}
+
+.demos {
+  background-color: #ded;
+  border: 10px solid black;
+}
+
+.demos__players {
+  grid-column: 2;
+  grid-row: 1;
+  border: 7px solid yellow;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  border: 3px solid red;
+  align-items: center; */
+  /* border: 30px solid red; */
   margin-bottom: 1rem;
 }
 
@@ -163,11 +189,6 @@ a:hover:after {
   grid-template-rows: 5fr;
   border: 10px solid black;
   background-color: #dab;
-}
-
-.demos {
-  background-color: #ded;
-  border: 10px solid black;
 }
 
 .content__text {
@@ -388,32 +409,3 @@ a:hover:after {
   background: rgba(0, 0, 0, 1);
   cursor: pointer;
 }
-
-#audioplayer-0 {
-  border: 8px solid yellow;
-  grid-row: 1;
-}
-
-#audioplayer-1 {
-  border: 8px solid greenyellow;
-  grid-row: 2;
-}
-#audioplayer-2 {
-  border: 8px solid salmon;
-  grid-row: 3;
-}
-#audioplayer-3 {
-  border: 8px solid orange;
-  grid-row: 4;
-}
-
-/* GRID WIT THESE MANE */
-/* GRID WIT THESE MANE */
-/* GRID WIT THESE MANE */
-/* GRID WIT THESE MANE */
-/* GRID WIT THESE MANE */
-/* GRID WIT THESE MANE */
-/* GRID WIT THESE MANE */
-/* GRID WIT THESE MANE */
-/* GRID WIT THESE MANE */
-/* GRID WIT THESE MANE */
