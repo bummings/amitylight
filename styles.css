@@ -122,7 +122,7 @@ a:hover:after {
 .demos {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 25% 25% 25% 25%;
+
   padding: 3rem;
   border: 10px solid blueviolet;
   height: 70vh;
@@ -131,64 +131,60 @@ a:hover:after {
 .demos__titles {
   grid-column: 1;
   display: grid;
-  grid-template-rows: 4 / 1fr;
+  grid-template-rows: repeat(4, 125px);
 }
 
 .demos__titles--title {
   font-size: 2rem;
+  margin: 0;
 }
 
 .demos__titles--1 {
   grid-row: 1;
   display: flex;
   justify-content: flex-end;
+  align-self: flex-end;
 }
 
 .demos__titles--2 {
   grid-row: 2;
   display: flex;
   justify-content: flex-end;
+  align-self: flex-end;
 }
 
 .demos__titles--3 {
   grid-row: 3;
   display: flex;
   justify-content: flex-end;
+  align-self: flex-end;
 }
 
 .demos__titles--4 {
   grid-row: 4;
   display: flex;
   justify-content: flex-end;
+  align-self: flex-end;
 }
 
-.demos__players {
-  grid-column: 2;
+#audio-players {
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
-}
-
-.audio-players {
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  /* grid-template-rows: 4 / 1fr; */
+  grid-template-rows: repeat(4, 125px);
 }
 
 #audioplayer-0 {
-  border: 8px solid yellow;
   grid-row: 1;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #audioplayer-1 {
-  border: 8px solid greenyellow;
   grid-row: 2;
 }
 #audioplayer-2 {
-  border: 8px solid salmon;
   grid-row: 3;
 }
 #audioplayer-3 {
-  border: 8px solid orange;
   grid-row: 4;
 }
 
@@ -468,6 +464,7 @@ a:hover:after {
   cursor: pointer;
 }
 
+/* FOR CSS STYLINGS OF OUTLINE RINGS ON INPUTS */
 body:not(.user-is-tabbing) button:focus,
 body:not(.user-is-tabbing) input:focus,
 body:not(.user-is-tabbing) select:focus,

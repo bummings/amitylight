@@ -9,13 +9,6 @@ let files = [
   'commercial2.mp3'
 ];
 
-let names = [
-  'Narration Demo 1',
-  'Narration Demo 2',
-  'Commercial Demo 1',
-  'Commercial Demo 2'
-];
-
 // array for AudioObjects
 let audioList = [];
 // components and the index for their AudioObject
