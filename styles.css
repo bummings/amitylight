@@ -132,6 +132,7 @@ a:hover:after {
   grid-column: 1;
   display: grid;
   grid-template-rows: repeat(4, 125px);
+  grid-row-gap: 1rem;
 }
 
 .demos__titles--title {
@@ -143,33 +144,34 @@ a:hover:after {
   grid-row: 1;
   display: flex;
   justify-content: flex-end;
-  align-self: flex-end;
+  align-self: center;
 }
 
 .demos__titles--2 {
   grid-row: 2;
   display: flex;
   justify-content: flex-end;
-  align-self: flex-end;
+  align-self: center;
 }
 
 .demos__titles--3 {
   grid-row: 3;
   display: flex;
   justify-content: flex-end;
-  align-self: flex-end;
+  align-self: center;
 }
 
 .demos__titles--4 {
   grid-row: 4;
   display: flex;
   justify-content: flex-end;
-  align-self: flex-end;
+  align-self: center;
 }
 
 #audio-players {
   display: grid;
   grid-template-rows: repeat(4, 125px);
+  grid-row-gap: 0.8rem;
 }
 
 #audioplayer-0 {
