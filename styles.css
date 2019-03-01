@@ -72,12 +72,14 @@ a:hover:after {
   align-items: center;
   line-height: 0.8;
   padding: 0 4rem;
+  margin-top: 70vh;
 }
 
 .header__logo {
   display: flex;
   flex-direction: row;
   align-items: center;
+  /* transform: scale(0.5); */
 }
 
 .header__logo--text {
