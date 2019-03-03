@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bummings/amitylight/issues"
   },
-  "homepage": "https://github.com/bummings/amitylight#readme"
+  "homepage": "https://github.com/bummings/amitylight#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
 }
