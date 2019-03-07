@@ -215,6 +215,7 @@ a:hover:after {
   font-size: 8rem;
   text-transform: uppercase;
   margin: 1rem;
+  background-color: #ddeedb;
 }
 
 .content__text {
@@ -436,7 +437,13 @@ a:hover:after {
 
 .footer {
   background: #3b3c36;
-  height: 10rem;
+  color: #fff;
+  height: 8rem;
+}
+
+.footer__text {
+  font-size: 1~rem;
+  padding: 1rem 3rem;
 }
 
 /* audio */
