@@ -73,6 +73,7 @@ a:hover:after {
   line-height: 0.8;
   padding: 0 4rem;
   margin-top: 70vh;
+  border: 2px solid red;
 }
 
 .header__logo {
@@ -442,7 +443,7 @@ a:hover:after {
 }
 
 .footer__text {
-  font-size: 1~rem;
+  font-size: 1rem;
   padding: 1rem 3rem;
 }
 
@@ -501,4 +502,9 @@ body:not(.user-is-tabbing) input:focus,
 body:not(.user-is-tabbing) select:focus,
 body:not(.user-is-tabbing) textarea:focus {
   outline: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
 }
