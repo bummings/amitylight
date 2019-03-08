@@ -1,6 +1,6 @@
-var yourNavigation = $('.nav');
+let yourNavigation = $('.header');
 stickyDiv = 'sticky';
-yourHeader = $('.header').height();
+yourHeader = $('.splash').height();
 
 $(window).scroll(function() {
   if ($(this).scrollTop() > yourHeader) {

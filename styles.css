@@ -66,13 +66,18 @@ a:hover:after {
 }
 
 .header {
+  margin-top: 70vh;
+  border: 3px solid;
+}
+
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   line-height: 0.8;
   padding: 0 4rem;
-  margin-top: 70vh;
+  /* margin-top: 70vh; */
   border: 2px solid red;
 }
 
