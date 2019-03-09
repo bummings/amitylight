@@ -65,9 +65,8 @@ a:hover:after {
   height: 20px;
 }
 
-.header {
-  margin-top: 70vh;
-  border: 3px solid;
+.splash {
+  height: 70vh;
 }
 
 .header {
