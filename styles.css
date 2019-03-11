@@ -328,6 +328,11 @@ a:hover:after {
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  color: #eeeedd;
+  font-size: 1.15rem;
+  letter-spacing: 0.6px;
+  line-height: 1.7;
+  padding: 2rem;
 }
 
 .resume__header {
@@ -335,13 +340,16 @@ a:hover:after {
   font-size: 8rem;
   text-transform: uppercase;
   margin: 1rem;
-  color: #eeeedd;
 }
 
 .resume__list {
   display: grid;
   grid-template-rows: 9 / 1fr;
   grid-template-columns: 3 / 1fr;
+}
+
+.resume__list--title {
+  text-transform: uppercase;
 }
 
 .resume__list--1 {
