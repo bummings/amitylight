@@ -76,7 +76,6 @@ a:hover:after {
   align-items: center;
   line-height: 0.8;
   padding: 0 4rem;
-  /* margin-top: 70vh; */
   border: 2px solid red;
 }
 
@@ -424,6 +423,15 @@ a:hover:after {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.contact__details--skype {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 1rem;
 }
 
 .contact__details--icon {
