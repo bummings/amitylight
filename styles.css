@@ -321,6 +321,24 @@ a:hover:after {
   align-items: center;
 }
 
+.resume {
+  height: 85vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.resume__header {
+  font-family: Oswald;
+  font-size: 8rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  color: #eeeedd;
+  /* color: #dedede; */
+}
+
 .contact {
   background-color: #ddeedd;
   color: black;
