@@ -336,7 +336,39 @@ a:hover:after {
   text-transform: uppercase;
   margin: 1rem;
   color: #eeeedd;
-  /* color: #dedede; */
+}
+
+.resume__list {
+  display: grid;
+  grid-template-rows: 9 / 1fr;
+  grid-template-columns: 3 / 1fr;
+}
+
+.resume__list--1 {
+}
+
+.resume__list--2 {
+}
+
+.resume__list--3 {
+}
+
+.resume__list--4 {
+}
+
+.resume__list--5 {
+}
+
+.resume__list--6 {
+}
+
+.resume__list--7 {
+}
+
+.resume__list--8 {
+}
+
+.resume__list--9 {
 }
 
 .contact {
