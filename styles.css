@@ -326,7 +326,6 @@ a:hover:after {
   background-color: black;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   color: #eeeedd;
   font-size: 1.15rem;
@@ -344,25 +343,32 @@ a:hover:after {
 
 .resume__list {
   display: grid;
-  grid-template-rows: 9 / 1fr;
+  grid-template-rows: 1 / 1fr;
   grid-template-columns: 3 / 1fr;
   grid-column-gap: 3rem;
 }
 
-.resume__list--title {
-  text-transform: uppercase;
+.resume__list--1--title {
+  grid-row: 1;
+  grid-column: 1;
 }
 
-.resume__list--1 {
+.resume__list--1--role {
   grid-row: 1;
+  grid-column: 2;
+}
+
+.resume__list--1--theater {
+  grid-row: 1;
+  grid-column: 3;
 }
 
 .resume__list--2 {
-  grid-row: 1;
+  grid-row: 2;
 }
 
 .resume__list--3 {
-  grid-row: 1;
+  grid-row: 3;
 }
 
 .resume__list--4 {
@@ -387,6 +393,10 @@ a:hover:after {
 
 .resume__list--9 {
   grid-row: 9;
+}
+
+.resume__list--title {
+  grid-column: 1;
 }
 
 .contact {
