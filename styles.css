@@ -322,7 +322,7 @@ a:hover:after {
 }
 
 .resume {
-  height: 85vh;
+  height: 100vh;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -331,7 +331,7 @@ a:hover:after {
   font-size: 1.15rem;
   letter-spacing: 0.6px;
   line-height: 1.7;
-  padding: 2rem;
+  padding: 5rem;
 }
 
 .resume__header {
@@ -345,12 +345,11 @@ a:hover:after {
   display: grid;
   grid-template-rows: 1 / 1fr;
   grid-template-columns: 3 / 1fr;
+  grid-row-gap: 1rem;
   grid-column-gap: 3rem;
+  border: 2px solid #ddeedc;
+  padding: 2rem 5rem;
 }
-
-/* bruh */
-/* bruh */
-/* bruh */
 
 .resume__list--1--title {
   grid-row: 1;
