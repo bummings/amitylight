@@ -348,6 +348,10 @@ a:hover:after {
   grid-column-gap: 3rem;
 }
 
+/* bruh */
+/* bruh */
+/* bruh */
+
 .resume__list--1--title {
   grid-row: 1;
   grid-column: 1;
@@ -363,40 +367,120 @@ a:hover:after {
   grid-column: 3;
 }
 
-.resume__list--2 {
+.resume__list--2--title {
   grid-row: 2;
-}
-
-.resume__list--3 {
-  grid-row: 3;
-}
-
-.resume__list--4 {
-  grid-row: 4;
-}
-
-.resume__list--5 {
-  grid-row: 5;
-}
-
-.resume__list--6 {
-  grid-row: 6;
-}
-
-.resume__list--7 {
-  grid-row: 7;
-}
-
-.resume__list--8 {
-  grid-row: 8;
-}
-
-.resume__list--9 {
-  grid-row: 9;
-}
-
-.resume__list--title {
   grid-column: 1;
+}
+
+.resume__list--2--role {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.resume__list--2--theater {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.resume__list--3--title {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.resume__list--3--role {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.resume__list--3--theater {
+  grid-row: 3;
+  grid-column: 3;
+}
+
+.resume__list--4--title {
+  grid-row: 4;
+  grid-column: 1;
+}
+
+.resume__list--4--role {
+  grid-row: 4;
+  grid-column: 2;
+}
+
+.resume__list--4--theater {
+  grid-row: 4;
+  grid-column: 3;
+}
+
+.resume__list--5--title {
+  grid-row: 5;
+  grid-column: 1;
+}
+
+.resume__list--5--role {
+  grid-row: 5;
+  grid-column: 2;
+}
+
+.resume__list--5--theater {
+  grid-row: 5;
+  grid-column: 3;
+}
+.resume__list--6--title {
+  grid-row: 6;
+  grid-column: 1;
+}
+
+.resume__list--6--role {
+  grid-row: 6;
+  grid-column: 2;
+}
+
+.resume__list--6--theater {
+  grid-row: 6;
+  grid-column: 3;
+}
+.resume__list--7--title {
+  grid-row: 7;
+  grid-column: 1;
+}
+
+.resume__list--7--role {
+  grid-row: 7;
+  grid-column: 2;
+}
+
+.resume__list--7--theater {
+  grid-row: 7;
+  grid-column: 3;
+}
+.resume__list--8--title {
+  grid-row: 8;
+  grid-column: 1;
+}
+
+.resume__list--8--role {
+  grid-row: 8;
+  grid-column: 2;
+}
+
+.resume__list--8--theater {
+  grid-row: 8;
+  grid-column: 3;
+}
+.resume__list--9--title {
+  grid-row: 9;
+  grid-column: 1;
+}
+
+.resume__list--9--role {
+  grid-row: 9;
+  grid-column: 2;
+}
+
+.resume__list--9--theater {
+  grid-row: 9;
+  grid-column: 3;
 }
 
 .contact {
