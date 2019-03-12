@@ -65,9 +65,52 @@ a:hover:after {
   height: 20px;
 }
 
-.splash {
+.top {
   height: 65vh;
-  /* font-size: 3rem; */
+}
+
+.splash {
+  height: 100vh;
+  padding: 0 10rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.splash__definitionBox {
+  display: flex;
+  align-items: center;
+  margin-top: -4rem;
+  padding: 0;
+}
+
+.splash__voiceover--word {
+  font-family: Lora;
+  font-weight: bold;
+  font-size: 7rem;
+  margin: 0;
+  padding: 0;
+}
+
+.splash__voiceover--pronounce {
+  font-style: italic;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  margin-left: 1rem;
+}
+
+.splash__voiceover--noun {
+  margin-left: 2rem;
+  font-size: 4rem;
+}
+
+.splash__voiceover--definition {
+  font-size: 2rem;
+}
+
+.splash__voiceover--definition--number {
+  font-weight: bold;
 }
 
 .header {
