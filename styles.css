@@ -355,6 +355,7 @@ a:hover:after {
 .resume__list--1--title {
   grid-row: 1;
   grid-column: 1;
+  color: red;
 }
 
 .resume__list--1--role {
