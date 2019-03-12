@@ -142,8 +142,8 @@ a:hover:after {
   align-self: center;
   font-family: Oswald;
   font-size: 2rem;
-  margin: 0;
   text-transform: uppercase;
+  margin-bottom: 1.75rem;
 }
 
 .demos__titles--2 {
@@ -155,6 +155,7 @@ a:hover:after {
   font-size: 2rem;
   margin: 0;
   text-transform: uppercase;
+  margin-bottom: 1.75rem;
 }
 
 .demos__titles--3 {
@@ -166,6 +167,7 @@ a:hover:after {
   font-size: 2rem;
   margin: 0;
   text-transform: uppercase;
+  margin-bottom: 1.75rem;
 }
 
 .demos__titles--4 {
@@ -177,6 +179,7 @@ a:hover:after {
   font-size: 2rem;
   margin: 0;
   text-transform: uppercase;
+  margin-bottom: 1.75rem;
 }
 
 #audio-players {
