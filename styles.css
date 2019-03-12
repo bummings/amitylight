@@ -355,12 +355,13 @@ a:hover:after {
 .resume__list--1--title {
   grid-row: 1;
   grid-column: 1;
-  color: red;
+  text-transform: uppercase;
 }
 
 .resume__list--1--role {
   grid-row: 1;
   grid-column: 2;
+  font-style: italic;
 }
 
 .resume__list--1--theater {
@@ -371,11 +372,13 @@ a:hover:after {
 .resume__list--2--title {
   grid-row: 2;
   grid-column: 1;
+  text-transform: uppercase;
 }
 
 .resume__list--2--role {
   grid-row: 2;
   grid-column: 2;
+  font-style: italic;
 }
 
 .resume__list--2--theater {
@@ -386,11 +389,13 @@ a:hover:after {
 .resume__list--3--title {
   grid-row: 3;
   grid-column: 1;
+  text-transform: uppercase;
 }
 
 .resume__list--3--role {
   grid-row: 3;
   grid-column: 2;
+  font-style: italic;
 }
 
 .resume__list--3--theater {
@@ -401,11 +406,13 @@ a:hover:after {
 .resume__list--4--title {
   grid-row: 4;
   grid-column: 1;
+  text-transform: uppercase;
 }
 
 .resume__list--4--role {
   grid-row: 4;
   grid-column: 2;
+  font-style: italic;
 }
 
 .resume__list--4--theater {
@@ -416,11 +423,13 @@ a:hover:after {
 .resume__list--5--title {
   grid-row: 5;
   grid-column: 1;
+  text-transform: uppercase;
 }
 
 .resume__list--5--role {
   grid-row: 5;
   grid-column: 2;
+  font-style: italic;
 }
 
 .resume__list--5--theater {
@@ -430,11 +439,13 @@ a:hover:after {
 .resume__list--6--title {
   grid-row: 6;
   grid-column: 1;
+  text-transform: uppercase;
 }
 
 .resume__list--6--role {
   grid-row: 6;
   grid-column: 2;
+  font-style: italic;
 }
 
 .resume__list--6--theater {
@@ -444,11 +455,13 @@ a:hover:after {
 .resume__list--7--title {
   grid-row: 7;
   grid-column: 1;
+  text-transform: uppercase;
 }
 
 .resume__list--7--role {
   grid-row: 7;
   grid-column: 2;
+  font-style: italic;
 }
 
 .resume__list--7--theater {
@@ -458,11 +471,13 @@ a:hover:after {
 .resume__list--8--title {
   grid-row: 8;
   grid-column: 1;
+  text-transform: uppercase;
 }
 
 .resume__list--8--role {
   grid-row: 8;
   grid-column: 2;
+  font-style: italic;
 }
 
 .resume__list--8--theater {
@@ -472,11 +487,13 @@ a:hover:after {
 .resume__list--9--title {
   grid-row: 9;
   grid-column: 1;
+  text-transform: uppercase;
 }
 
 .resume__list--9--role {
   grid-row: 9;
   grid-column: 2;
+  font-style: italic;
 }
 
 .resume__list--9--theater {
