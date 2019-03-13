@@ -118,6 +118,8 @@ a:hover:after {
   background: url(./assets/lightbulb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   line-height: 0.8;
   padding: 0 4rem;
   height: 100vh;
