@@ -715,12 +715,25 @@ a:hover:after {
 .footer {
   background: #3b3c36;
   color: #fff;
-  height: 8rem;
+  height: 5rem;
 }
 
 .footer__text {
+  display: flex;
+  justify-content: flex-end;
+  font-family: Oswald;
+  font-size: 1rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  align-items: flex-end;
   font-size: 1rem;
   padding: 1rem 3rem;
+  height: 3rem;
+}
+
+.footer__text--link {
+  margin-left: 4px;
+  color: #ddeedc;
 }
 
 /* audio */
